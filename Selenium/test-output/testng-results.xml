@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-13T20:10:43 IST" name="Failed suite [Suite]" finished-at="2025-04-13T20:11:20 IST" duration-ms="36441">
+    <groups>
+      <group name="functional">
+        <method signature="TestngFlipkartNavigation.launchFlipkart(java.lang.String)[pri:0, instance:task.TestngFlipkartNavigation@dd05255]" name="launchFlipkart" class="task.TestngFlipkartNavigation"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="TestngZomatoNavigation.launchZomato(java.lang.String)[pri:0, instance:task.TestngZomatoNavigation@158a8276]" name="launchZomato" class="task.TestngZomatoNavigation"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-13T20:10:43 IST" name="Test_Edge(failed)" finished-at="2025-04-13T20:11:12 IST" duration-ms="28541">
+      <class name="task.TestngZomatoNavigation">
+        <test-method signature="launchZomato(java.lang.String)[pri:0, instance:task.TestngZomatoNavigation@158a8276]" started-at="2025-04-13T20:10:43 IST" name="launchZomato" finished-at="2025-04-13T20:10:54 IST" duration-ms="10069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchZomato -->
+      </class> <!-- task.TestngZomatoNavigation -->
+      <class name="task.TestngFBNavigation">
+        <test-method signature="launchFB(java.lang.String)[pri:0, instance:task.TestngFBNavigation@3c3d9b6b]" started-at="2025-04-13T20:10:54 IST" name="launchFB" finished-at="2025-04-13T20:11:12 IST" duration-ms="18273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFB -->
+      </class> <!-- task.TestngFBNavigation -->
+    </test> <!-- Test_Edge(failed) -->
+    <test started-at="2025-04-13T20:10:43 IST" name="Test_Chrome(failed)" finished-at="2025-04-13T20:11:20 IST" duration-ms="36441">
+      <class name="task.TestngFlipkartNavigation">
+        <test-method signature="launchFlipkart(java.lang.String)[pri:0, instance:task.TestngFlipkartNavigation@dd05255]" started-at="2025-04-13T20:10:43 IST" name="launchFlipkart" finished-at="2025-04-13T20:11:20 IST" duration-ms="36292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFlipkart -->
+      </class> <!-- task.TestngFlipkartNavigation -->
+    </test> <!-- Test_Chrome(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
